@@ -6,6 +6,7 @@
     <em:id>seinfeld@overstimulate.com</em:id>
     <em:version>0.1</em:version>
     <em:homepageURL>http://overstimulate.com/projects/seinfeld</em:homepageURL>
+    <em:updateURL>https://s3.overstimulate.com.s3.amazonaws.com/seinfeld.rdf</em:updateURL>
     <em:description>Status bar for calendar about nothing</em:description>
     <em:optionsURL>chrome://seinfeld/content/config.xul</em:optionsURL>
     <em:creator>Jesse Andrews; http://overstimulate.com</em:creator>
