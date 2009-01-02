@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        title="Seinfeld Settings"
+        id="seinfeldConfig"
+        width="400"
+        height="400"
+        onload="init()"
+        ondialogaccept="save();"
+        buttons="cancel,accept">
+
+  <script type="text/javascript" src="config.js"></script>
+
+  <vbox>
+    <dialogheader title="Seinfeld" description="Username" />
+    <groupbox>
+      <description>Your username on calendaraboutnothing.com</description>
+      <label value="username" />
+      <textbox id="username" />
+    </groupbox>
+  </vbox>
+</dialog>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="chrome://seinfeld/skin/overlay.css"?>
+
+<overlay id="seinfeldOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+         xmlns:html="http://www.w3.org/1999/xhtml">
+
+  <script type="application/x-javascript" src="chrome://seinfeld/content/overlay.js" />
+
+  <statusbar id="status-bar">
+    <statusbarpanel id="seinfeld" onclick="seinfeld.show()">
+      <image src="chrome://seinfeld/skin/x_16.png" />
+      <label id="seinfeld-status" value="" />
+    </statusbarpanel>
+  </statusbar>
+
+</overlay>
+

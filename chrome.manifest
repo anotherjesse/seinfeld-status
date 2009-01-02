@@ -1,0 +1,6 @@
+content seinfeld  chrome/content/
+skin    seinfeld  classic/1.0 chrome/skin/
+
+overlay chrome://browser/content/browser.xul          chrome://seinfeld/content/overlay.xul
+
+resource seinfeld modules/
