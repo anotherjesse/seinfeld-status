@@ -1,0 +1,26 @@
+Add calendaraboutnothing.com to your firefox status bar
+to make sure you don't break your streak of commiting to
+open source projects.
+
+Install from:
+
+ * https://s3.overstimulate.com.s3.amazonaws.com/seinfeld.xpi
+
+Usage:
+
+ * Click the red X in your status bar to set your username.
+
+ * After setting your username clicking the X updates your
+   current streak.
+
+ * To change your username, click on the Preferences in
+   Tools -> Addons screen of firefox
+
+TODO:
+
+  * make it so it updates periodically and shows you
+    if you have completed todays yet
+
+    - wonder how often calendaraboutnothing updates?
+
+
